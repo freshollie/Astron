@@ -1,0 +1,10 @@
+dependencies/
+test/
+docs/
+AUTHORS.md
+astrond.astyle
+CONTRIBUTORS.md
+Dockerfile
+LICENSE.md
+README.md
+.git
