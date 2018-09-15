@@ -25,7 +25,7 @@ WORKDIR /astron
 
 COPY --from=build /build/astrond astrond
 
-ENV CLUSTER_CONFIG="cluster.yaml"
+ENV CLUSTER_CONFIG="cluster.yml"
 ENV LOGLEVEL="info"
 
 CMD ./astrond --loglevel $LOGLEVEL $CLUSTER_CONFIG
